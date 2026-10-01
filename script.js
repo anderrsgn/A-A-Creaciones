@@ -11,7 +11,7 @@ const CATALOGOS = {
       { nombre: "Ramo celestes", precio: "$90.000", desc: "Flores y una mariposa", foto: "img/ramo3.jpeg" },
       { nombre: "Ramo morado", precio: "$90.000", desc: "Flores moradas y una mariposa.", foto: "img/ramo4.jpeg" },
       { nombre: "Ramo amarillo", precio: "$90.000", desc: "7 flores amarillas y una mariposa.", foto: "img/ramo5.jpeg" },
-      { nombre: "Ramo rosita", precio: "$90.000", desc: "Colores llamativos", foto: "img/ramo6.jpeg" },
+      { nombre: "Ramo rosita", precio: "$90.000", desc: "Colores llamativos con una mariposa", foto: "img/ramo6.jpeg" },
       { nombre: "Ramo elegante", precio: "$90.000", desc: "7 flores rojas y una mariposa.", foto: "img/ramo7.jpeg" },
       { nombre: "Ramo azulado", precio: "$90.000", desc: "Flores, una mariposa y dedicatoria", foto: "img/ramo8.jpeg" }
     ]
