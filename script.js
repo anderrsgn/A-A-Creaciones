@@ -21,9 +21,9 @@ const CATALOGOS = {
     sub: "Sorpresas para cualquier ocasión.",
     productos: [
       { nombre: "Casita de Snoopy", precio: "$480.000", desc: "Dedicatorias, cartas y dulces surtidos.", foto: "img/regalo1.jpeg" },
-      { nombre: "Cofre de Clash Royale", precio: "$350.000", desc: "Dedicatoria y dulces.", foto: "img/regalo2.jpeg" },
-      { nombre: "Cofre de Minecraft", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.jpeg" },
-      { nombre: "Caja dulce de recuerdos", precio: "$180.000", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.jpeg" },
+      { nombre: "Cofre de Clash Royale", precio: "$350.000", desc: "Dedicatoria, stickers y dulces.", foto: "img/regalo2.jpeg" },
+      { nombre: "Cofre de Minecraft", precio: "$520.000", desc: "Peluche, dulces y una carta.", foto: "img/regalo3.jpeg" },
+      { nombre: "Caja dulce de recuerdos", precio: "$180.000", desc: "Fotos, dedicatoria y dulces.", foto: "img/regalo4.jpeg" },
       { nombre: "Caja HotWheels", precio: "$150.000", desc: "Un carrito, 2 flores, dedicatoria y dulces.", foto: "img/regalo5.jpeg" },
       { nombre: "Caja de sneaks", precio: "$260.000", desc: "6 dulces a eleccion.", foto: "img/regalo6.jpeg" },
       { nombre: "Caja de cumpleaños boy", precio: "$390.000", desc: "Fotos, dedicatoria y dulces.", foto: "img/regalo7.jpeg" },
