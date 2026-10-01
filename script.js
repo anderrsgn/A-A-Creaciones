@@ -14,15 +14,15 @@ const CATALOGOS = {
       { nombre: "Ramo rosita", precio: "$90.000", desc: "Colores llamativos con una mariposa", foto: "img/ramo6.jpeg" },
       { nombre: "Ramo elegante", precio: "$87.000", desc: "7 flores rojas y una mariposa.", foto: "img/ramo7.jpeg" },
       { nombre: "Ramo azulado", precio: "$100.000", desc: "Flores, una mariposa y dedicatoria.", foto: "img/ramo8.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo9.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo10.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo11.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo12.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo14.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo15.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo16.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo17.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion." foto: "img/ramo18.jpeg" }
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo9.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo10.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo11.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo12.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo14.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo15.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo16.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo17.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo18.jpeg" }
     ]
   },
   regalos: {
