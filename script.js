@@ -1,5 +1,5 @@
 
-const WHATSAPP = "5950983835886";   // tu número con código de país, sin + ni espacios
+const WHATSAPP = "5950983835886"; 
 
 const CATALOGOS = {
   flores: {
@@ -46,7 +46,6 @@ const CATALOGOS = {
   }
 };
 
-/* ---------- No necesitas tocar desde aquí ---------- */
 const ICONO_FOTO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>';
 const inicio = document.getElementById("inicio");
 const catalogo = document.getElementById("catalogo");
@@ -75,7 +74,6 @@ function ir(clave) {
   catalogo.hidden = !hay;
   window.scrollTo(0, 0);
 }
-/* Clics directos (funcionan también en vistas previas que bloquean los enlaces con #) */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener("click", e => {
     e.preventDefault();
