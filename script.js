@@ -20,14 +20,14 @@ const CATALOGOS = {
     titulo: "Regalos & detalles",
     sub: "Sorpresas para cualquier ocasión.",
     productos: [
-      { nombre: "Caja sorpresa", precio: "$480.000", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.png" },
-      { nombre: "Peluche con globo", precio: "$350.000", desc: "Osito suave con globo metálico.", foto: "img/regalo2.png" },
-      { nombre: "Desayuno sorpresa", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.png" },
-      { nombre: "Vela aromática", precio: "$180.000", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.png" },
-      { nombre: "Taza personalizada", precio: "$150.000", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.png" },
-      { nombre: "Caja de chocolates", precio: "$260.000", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.png" },
-      { nombre: "Globo burbuja", precio: "$390.000", desc: "Globo transparente con mensaje y confeti.", foto: "img/regalo7.png" },
-      { nombre: "Set de spa", precio: "$430.000", desc: "Sales, jabón y crema en caja de regalo.", foto: "img/regalo8.png" }
+      { nombre: "Caja sorpresa", precio: "$480.000", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.jpeg" },
+      { nombre: "Peluche con globo", precio: "$350.000", desc: "Osito suave con globo metálico.", foto: "img/regalo2.jpeg" },
+      { nombre: "Desayuno sorpresa", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.pjpeg" },
+      { nombre: "Vela aromática", precio: "$180.000", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.jpeg" },
+      { nombre: "Taza personalizada", precio: "$150.000", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.jpeg" },
+      { nombre: "Caja de chocolates", precio: "$260.000", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.jpeg" },
+      { nombre: "Globo burbuja", precio: "$390.000", desc: "Globo transparente con mensaje y confeti.", foto: "img/regalo7.jpeg" },
+      { nombre: "Set de spa", precio: "$430.000", desc: "Sales, jabón y crema en caja de regalo.", foto: "img/regalo8.jpeg" }
     ]
   },
   postres: {
