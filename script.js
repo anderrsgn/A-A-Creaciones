@@ -22,7 +22,7 @@ const CATALOGOS = {
     productos: [
       { nombre: "Casita de Snoopy", precio: "$480.000", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.jpeg" },
       { nombre: "Cofre de Clash Royale", precio: "$350.000", desc: "Osito suave con globo metálico.", foto: "img/regalo2.jpeg" },
-      { nombre: "Caja dulce de recuerdos", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.jpeg" },
+      { nombre: "Cofre de Minecraft", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.jpeg" },
       { nombre: "Caja dulce de recuerdos", precio: "$180.000", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.jpeg" },
       { nombre: "Caja HotWheels", precio: "$150.000", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.jpeg" },
       { nombre: "Caja de sneaks", precio: "$260.000", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.jpeg" },
