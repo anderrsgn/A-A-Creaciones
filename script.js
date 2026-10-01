@@ -1,0 +1,93 @@
+/* =====================================================
+   EDITA AQUÍ TUS PRODUCTOS
+   - nombre, precio, desc (descripción breve)
+   - foto: ya viene asignada. Solo pon en la carpeta img/
+     las fotos con ese nombre:
+       Flores:  ramo1.png ... ramo8.png
+       Regalos: regalo1.png ... regalo8.png
+       Postres: postre1.png ... postre8.png
+   ===================================================== */
+const WHATSAPP = "521234567890";   // tu número con código de país, sin + ni espacios
+
+const CATALOGOS = {
+  flores: {
+    titulo: "Catálogo de flores",
+    sub: "Ramos y arreglos hechos al momento.",
+    productos: [
+      { nombre: "Ramo de rosas rojas", precio: "$450.000", desc: "12 rosas con follaje y envoltura elegante.", foto: "img/icono.png" },
+      { nombre: "Ramo de girasoles", precio: "$380", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.png" },
+      { nombre: "Tulipanes de colores", precio: "$420", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.png" },
+      { nombre: "Caja de flores mixtas", precio: "$550", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.png" },
+      { nombre: "Ramo de gerberas", precio: "$340", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.png" },
+      { nombre: "Lirios blancos", precio: "$400", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.png" },
+      { nombre: "Rosas blancas y eucalipto", precio: "$620", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.png" },
+      { nombre: "Rosa eterna en cúpula", precio: "$520", desc: "Rosa preservada que dura años.", foto: "img/ramo8.png" }
+    ]
+  },
+  regalos: {
+    titulo: "Regalos & detalles",
+    sub: "Sorpresas para cualquier ocasión.",
+    productos: [
+      { nombre: "Caja sorpresa", precio: "$480", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.png" },
+      { nombre: "Peluche con globo", precio: "$350", desc: "Osito suave con globo metálico.", foto: "img/regalo2.png" },
+      { nombre: "Desayuno sorpresa", precio: "$520", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.png" },
+      { nombre: "Vela aromática", precio: "$180", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.png" },
+      { nombre: "Taza personalizada", precio: "$150", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.png" },
+      { nombre: "Caja de chocolates", precio: "$260", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.png" },
+      { nombre: "Globo burbuja", precio: "$390", desc: "Globo transparente con mensaje y confeti.", foto: "img/regalo7.png" },
+      { nombre: "Set de spa", precio: "$430", desc: "Sales, jabón y crema en caja de regalo.", foto: "img/regalo8.png" }
+    ]
+  },
+  postres: {
+    titulo: "Postres",
+    sub: "Hechos con ingredientes frescos cada día.",
+    productos: [
+      { nombre: "Pastel de chocolate", precio: "$520", desc: "Mediano, 10 porciones, con ganache.", foto: "img/postre1.png" },
+      { nombre: "Cheesecake de frutos rojos", precio: "$450", desc: "Cremoso, con salsa de fresa y zarzamora.", foto: "img/postre2.png" },
+      { nombre: "Cupcakes (6 pzas)", precio: "$210", desc: "Sabores surtidos con betún decorado.", foto: "img/postre3.png" },
+      { nombre: "Galletas decoradas", precio: "$180", desc: "6 piezas con diseños para tu evento.", foto: "img/postre4.png" },
+      { nombre: "Brownies (9 pzas)", precio: "$230", desc: "Húmedos, con nuez y chocolate.", foto: "img/postre5.png" },
+      { nombre: "Pastel tres leches", precio: "$480", desc: "Suave y ligero, con crema batida.", foto: "img/postre6.png" },
+      { nombre: "Fresas con chocolate", precio: "$260", desc: "12 fresas bañadas en chocolate.", foto: "img/postre7.png" },
+      { nombre: "Pay de limón", precio: "$320", desc: "Con base de galleta y merengue.", foto: "img/postre8.png" }
+    ]
+  }
+};
+
+/* ---------- No necesitas tocar desde aquí ---------- */
+const ICONO_FOTO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>';
+const inicio = document.getElementById("inicio");
+const catalogo = document.getElementById("catalogo");
+
+document.getElementById("wa-home").href =
+  "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent("Hola A&A Creaciones, quiero hacer un pedido");
+
+function mostrarCatalogo(clave) {
+  const c = CATALOGOS[clave];
+  document.getElementById("cat-titulo").textContent = c.titulo;
+  document.getElementById("cat-sub").textContent = c.sub;
+  document.getElementById("productos").innerHTML = c.productos.map((p, i) => {
+    const foto = p.foto || "img/" + clave + "-" + (i + 1) + ".jpg";
+    const msg = encodeURIComponent("Hola, me interesa: " + p.nombre + " (" + p.precio + ")");
+    return '<article class="prod">' +
+      '<div class="foto">' + ICONO_FOTO + '<img src="' + foto + '" alt="' + p.nombre + '" loading="lazy" onerror="this.remove()"></div>' +
+      '<div class="info"><h3>' + p.nombre + '</h3><p>' + p.desc + '</p><span class="precio">' + p.precio + '</span>' +
+      '<a class="pedir" href="https://wa.me/' + WHATSAPP + '?text=' + msg + '" target="_blank" rel="noopener">Pedir</a></div></article>';
+  }).join("");
+}
+
+function ir(clave) {
+  const hay = !!clave && Object.prototype.hasOwnProperty.call(CATALOGOS, clave);
+  if (hay) mostrarCatalogo(clave);
+  inicio.hidden = hay;
+  catalogo.hidden = !hay;
+  window.scrollTo(0, 0);
+}
+/* Clics directos (funcionan también en vistas previas que bloquean los enlaces con #) */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener("click", e => {
+    e.preventDefault();
+    ir(a.getAttribute("href").slice(1));
+  });
+});
+ir("");

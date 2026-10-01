@@ -1,0 +1,313 @@
+/* =====================================================
+   PERSONALIZA AQUÍ
+   ===================================================== */
+:root {
+  /* Fondo de la página: primero intenta tu FOTO (img/fondo.jpg).
+     Si no existe, muestra el patrón de flores y regalos. */
+  --patron: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22220%22 height=%22220%22 viewBox=%220 0 220 220%22%3E%3Crect width=%22220%22 height=%22220%22 fill=%22%23fbe3e8%22/%3E%3Ccircle cx=%2240.0%22 cy=%2227.6%22 r=%2210.0%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%2251.8%22 cy=%2236.2%22 r=%2210.0%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%2247.3%22 cy=%2250.0%22 r=%2210.0%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%2232.7%22 cy=%2250.0%22 r=%2210.0%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%2228.2%22 cy=%2236.2%22 r=%2210.0%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%2240%22 cy=%2240%22 r=%226.0%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%22160.0%22 cy=%2260.1%22 r=%228.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22169.4%22 cy=%2266.9%22 r=%228.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22165.8%22 cy=%2278.0%22 r=%228.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22154.2%22 cy=%2278.0%22 r=%228.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22150.6%22 cy=%2266.9%22 r=%228.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22160%22 cy=%2270%22 r=%224.8%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%2290.0%22 cy=%22138.8%22 r=%229.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%22100.6%22 cy=%22146.6%22 r=%229.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2296.6%22 cy=%22159.0%22 r=%229.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2283.4%22 cy=%22159.0%22 r=%229.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2279.4%22 cy=%22146.5%22 r=%229.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2290%22 cy=%22150%22 r=%225.4%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%22195.0%22 cy=%22181.9%22 r=%226.5%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%22202.7%22 cy=%22187.5%22 r=%226.5%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%22199.7%22 cy=%22196.5%22 r=%226.5%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%22190.3%22 cy=%22196.5%22 r=%226.5%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%22187.3%22 cy=%22187.5%22 r=%226.5%22 fill=%22%23f4a6b8%22/%3E%3Ccircle cx=%22195%22 cy=%22190%22 r=%223.9%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%2215.0%22 cy=%22182.6%22 r=%226.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2222.1%22 cy=%22187.7%22 r=%226.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2219.4%22 cy=%22196.0%22 r=%226.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2210.6%22 cy=%22196.0%22 r=%226.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%227.9%22 cy=%22187.7%22 r=%226.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2215%22 cy=%22190%22 r=%223.6%22 fill=%22%23ffd166%22/%3E%3Cellipse cx=%2270%22 cy=%2242%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%28-20 70 42%29%22/%3E%3Cellipse cx=%22178%22 cy=%2286%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%2830 178 86%29%22/%3E%3Cellipse cx=%22112%22 cy=%22162%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%28-40 112 162%29%22/%3E%3Cellipse cx=%2230%22 cy=%22160%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%2850 30 160%29%22/%3E%3Crect x=%22110%22 y=%2230%22 width=%2226%22 height=%2220.8%22 rx=%222%22 fill=%22%23e85d8a%22/%3E%3Crect x=%22121.0%22 y=%2230%22 width=%224%22 height=%2220.8%22 fill=%22%23fff%22/%3E%3Crect x=%22110%22 y=%2238.4%22 width=%2226%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%22119.0%22 cy=%2228%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%22127.0%22 cy=%2228%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Crect x=%2228%22 y=%2295%22 width=%2222%22 height=%2217.6%22 rx=%222%22 fill=%22%237bc8b8%22/%3E%3Crect x=%2237.0%22 y=%2295%22 width=%224%22 height=%2217.6%22 fill=%22%23fff%22/%3E%3Crect x=%2228%22 y=%22101.8%22 width=%2222%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2235.0%22 cy=%2293%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%2243.0%22 cy=%2293%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Crect x=%22150%22 y=%22128%22 width=%2224%22 height=%2219.200000000000003%22 rx=%222%22 fill=%22%23f6b94a%22/%3E%3Crect x=%22160.0%22 y=%22128%22 width=%224%22 height=%2219.200000000000003%22 fill=%22%23fff%22/%3E%3Crect x=%22150%22 y=%22135.6%22 width=%2224%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%22158.0%22 cy=%22126%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%22166.0%22 cy=%22126%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Cpath d=%22M85 95l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M205 25l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M60 200l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M135 90l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3C/svg%3E");
+  --fondo: url('img/fondo.jpg'), var(--patron);
+
+  /* Filtro blanco sobre el fondo: 0 = sin filtro, 1 = todo blanco */
+  --filtro-blanco: rgba(255, 255, 255, 0.62);
+
+  /* Colores */
+  --tinta: #4a2a35;          /* textos */
+  --acento: #b5476b;         /* detalles */
+  --crema: #fff8f3;
+  --whatsapp-1: #25d366;
+  --whatsapp-2: #128c4a;
+}
+
+/* Fondo de cada botón: primero intenta tu FOTO (img/btn-....jpg).
+   Si no existe, muestra el patrón de ilustraciones. */
+.btn-flores  { --btn-patron: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22110%22 height=%2270%22 viewBox=%220 0 110 70%22%3E%3Crect width=%22110%22 height=%2270%22 fill=%22%23fbd3dc%22/%3E%3Ccircle cx=%2218.0%22 cy=%2211.9%22 r=%226.5%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2225.7%22 cy=%2217.5%22 r=%226.5%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2222.7%22 cy=%2226.5%22 r=%226.5%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2213.3%22 cy=%2226.5%22 r=%226.5%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2210.3%22 cy=%2217.5%22 r=%226.5%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2218%22 cy=%2220%22 r=%223.9%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%2262.0%22 cy=%2238.7%22 r=%227.5%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2270.8%22 cy=%2245.1%22 r=%227.5%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2267.5%22 cy=%2255.5%22 r=%227.5%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2256.5%22 cy=%2255.5%22 r=%227.5%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2253.2%22 cy=%2245.1%22 r=%227.5%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2262%22 cy=%2248%22 r=%224.5%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%2296.0%22 cy=%227.8%22 r=%225.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%22101.9%22 cy=%2212.1%22 r=%225.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2299.6%22 cy=%2219.0%22 r=%225.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2292.4%22 cy=%2219.0%22 r=%225.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2290.1%22 cy=%2212.1%22 r=%225.0%22 fill=%22%23c9b6f0%22/%3E%3Ccircle cx=%2296%22 cy=%2214%22 r=%223.0%22 fill=%22%23ffd166%22/%3E%3Ccircle cx=%2230.0%22 cy=%2253.0%22 r=%224.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2234.7%22 cy=%2256.5%22 r=%224.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2232.9%22 cy=%2262.0%22 r=%224.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2227.1%22 cy=%2262.0%22 r=%224.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2225.3%22 cy=%2256.5%22 r=%224.0%22 fill=%22%23ffc2a1%22/%3E%3Ccircle cx=%2230%22 cy=%2258%22 r=%222.4%22 fill=%22%23ffd166%22/%3E%3Cellipse cx=%2242%22 cy=%2222%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%28-25 42 22%29%22/%3E%3Cellipse cx=%2284%22 cy=%2236%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%2835 84 36%29%22/%3E%3Cellipse cx=%228%22 cy=%2244%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%2860 8 44%29%22/%3E%3Cellipse cx=%22100%22 cy=%2258%22 rx=%229%22 ry=%223.5%22 fill=%22%238fc39a%22 transform=%22rotate%28-30 100 58%29%22/%3E%3C/svg%3E"); --btn-fondo: url('img/btn-flores.jpg'), var(--btn-patron); }
+.btn-regalos { --btn-patron: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22110%22 height=%2270%22 viewBox=%220 0 110 70%22%3E%3Crect width=%22110%22 height=%2270%22 fill=%22%23fde3b8%22/%3E%3Crect x=%2210%22 y=%2222%22 width=%2224%22 height=%2219.200000000000003%22 rx=%222%22 fill=%22%23e85d8a%22/%3E%3Crect x=%2220.0%22 y=%2222%22 width=%224%22 height=%2219.200000000000003%22 fill=%22%23fff%22/%3E%3Crect x=%2210%22 y=%2229.6%22 width=%2224%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2218.0%22 cy=%2220%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%2226.0%22 cy=%2220%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Crect x=%2252%22 y=%2230%22 width=%2220%22 height=%2216.0%22 rx=%222%22 fill=%22%236aa9e9%22/%3E%3Crect x=%2260.0%22 y=%2230%22 width=%224%22 height=%2216.0%22 fill=%22%23fff%22/%3E%3Crect x=%2252%22 y=%2236.0%22 width=%2220%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2258.0%22 cy=%2228%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%2266.0%22 cy=%2228%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Crect x=%2284%22 y=%2214%22 width=%2222%22 height=%2217.6%22 rx=%222%22 fill=%22%237bc8b8%22/%3E%3Crect x=%2293.0%22 y=%2214%22 width=%224%22 height=%2217.6%22 fill=%22%23fff%22/%3E%3Crect x=%2284%22 y=%2220.8%22 width=%2222%22 height=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2291.0%22 cy=%2212%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Ccircle cx=%2299.0%22 cy=%2212%22 r=%224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222%22/%3E%3Cpath d=%22M45 9l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M76 53l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M100 47l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23e85d8a%22/%3E%3Cpath d=%22M8 55l1.6 3.4 3.6.4-2.7 2.5.8 3.6-3.3-1.9-3.3 1.9.8-3.6-2.7-2.5 3.6-.4z%22 fill=%22%23fff%22/%3E%3Cpath d=%22M28 8c4 4 8 4 12 0%22 stroke=%22%23e85d8a%22 stroke-width=%222%22 fill=%22none%22 stroke-linecap=%22round%22/%3E%3C/svg%3E"); --btn-fondo: url('img/btn-regalos.jpg'), var(--btn-patron); }
+.btn-postres { --btn-patron: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22110%22 height=%2270%22 viewBox=%220 0 110 70%22%3E%3Crect width=%22110%22 height=%2270%22 fill=%22%23f6d7c3%22/%3E%3Cpath d=%22M10 30h22l-3 16h-16z%22 fill=%22%23c98b5e%22/%3E%3Ccircle cx=%2221%22 cy=%2227%22 r=%2211%22 fill=%22%23fff3f6%22/%3E%3Ccircle cx=%2221%22 cy=%2215%22 r=%223.5%22 fill=%22%23d7263d%22/%3E%3Cpath d=%22M58 36h22l-3 16h-16z%22 fill=%22%238a5a3c%22/%3E%3Ccircle cx=%2269%22 cy=%2233%22 r=%2211%22 fill=%22%23f7a6b9%22/%3E%3Ccircle cx=%2269%22 cy=%2221%22 r=%223.5%22 fill=%22%23d7263d%22/%3E%3Ccircle cx=%2296%22 cy=%2218%22 r=%2211%22 fill=%22%23f27a9b%22/%3E%3Ccircle cx=%2296%22 cy=%2218%22 r=%226%22 fill=%22%23fff%22 opacity=%220%22/%3E%3Ccircle cx=%2296%22 cy=%2218%22 r=%2211%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%220%22/%3E%3Ccircle cx=%2296%22 cy=%2218%22 r=%228.5%22 fill=%22%23fff%22 opacity=%22.0%22/%3E%3Ccircle cx=%2296%22 cy=%2218%22 r=%223.5%22 fill=%22%23f6d7c3%22/%3E%3Cpath d=%22M90 13h2M100 12h2M99 23h2M89 21h2%22 stroke=%22%23fff%22 stroke-width=%221.6%22 stroke-linecap=%22round%22/%3E%3Ccircle cx=%2244%22 cy=%2212%22 r=%224%22 fill=%22%23d7263d%22/%3E%3Cpath d=%22M44 8c1-4 4-5 6-5%22 stroke=%22%235a8f4a%22 stroke-width=%221.6%22 fill=%22none%22/%3E%3Cpath d=%22M88 54h4M100 60h4M78 40h4%22 stroke=%22%23fff%22 stroke-width=%222%22 stroke-linecap=%22round%22/%3E%3C/svg%3E"); --btn-fondo: url('img/btn-postres.jpg'), var(--btn-patron); }
+
+/* =====================================================
+   BASE
+   ===================================================== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { min-height: 100%; }
+
+body {
+  min-height: 100vh;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: var(--tinta);
+  background-color: #f6dfe4;           /* color si no carga la imagen */
+  background-image: var(--fondo);
+  background-size: cover, 220px;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Capa blanca translúcida sobre el fondo */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: var(--filtro-blanco);
+  z-index: 0;
+}
+
+.pagina {
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 44px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* =====================================================
+   LOGO Y TÍTULO
+   ===================================================== */
+.logo {
+  position: relative;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background: var(--crema);
+  box-shadow: 0 6px 22px rgba(74, 42, 53, .18);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: var(--acento);
+}
+.logo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  margin-top: 18px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1.1;
+}
+
+/* =====================================================
+   REDES SOCIALES (iconos personalizados)
+   ===================================================== */
+.redes {
+  display: flex;
+  gap: 14px;
+  margin-top: 18px;
+}
+.red {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .85);
+  border: 1.5px solid rgba(181, 71, 107, .35);
+  display: grid;
+  place-items: center;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--acento);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s;
+}
+.red img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* usa "contain" si tu icono ya trae su forma */
+}
+.red:hover { transform: scale(1.08); }
+
+/* =====================================================
+   TEXTO DE PRESENTACIÓN
+   ===================================================== */
+.categorias {
+  margin-top: 22px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: .03em;
+}
+.frase {
+  margin-top: 8px;
+  max-width: 28ch;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+/* =====================================================
+   BOTONES CON FONDO PERSONALIZADO
+   ===================================================== */
+.botones {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 68px;
+  padding: 0 22px;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--tinta);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-align: left;
+  border: 1.5px solid rgba(255, 255, 255, .9);
+  box-shadow: 0 4px 16px rgba(74, 42, 53, .14);
+  background-color: var(--crema);
+  background-image: var(--btn-fondo);
+  background-size: cover, 110px 70px;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  transition: transform .2s, box-shadow .2s;
+}
+/* Velo claro para que el texto siempre se lea sobre la imagen */
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.7) 55%, rgba(255,255,255,.2) 100%);
+}
+.btn > * { position: relative; }
+/* Icono personalizado de cada botón */
+.btn .ico {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(181, 71, 107, .12);   /* círculo que se ve si aún no hay icono */
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.btn .ico img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* usa "cover" si quieres que llene el círculo */
+}
+.btn-whatsapp .ico { background: rgba(255, 255, 255, .22); }
+.btn .ico svg { width: 22px; height: 22px; color: var(--acento); }
+.btn-whatsapp .ico svg { color: #fff; }
+.red svg { width: 24px; height: 24px; }
+
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(74, 42, 53, .2); }
+
+/* =====================================================
+   BOTÓN DE WHATSAPP (diferente)
+   ===================================================== */
+.btn-whatsapp {
+  margin-top: 10px;
+  min-height: 76px;
+  justify-content: center;
+  border-radius: 999px;
+  border: none;
+  color: #fff;
+  font-size: 1.15rem;
+  background-image: linear-gradient(135deg, var(--whatsapp-1), var(--whatsapp-2));
+  box-shadow: 0 8px 24px rgba(18, 140, 74, .4);
+  animation: pulso 2.8s ease-out infinite;
+}
+.btn-whatsapp::before { display: none; }
+
+@keyframes pulso {
+  0%   { box-shadow: 0 8px 24px rgba(18,140,74,.4), 0 0 0 0 rgba(37,211,102,.5); }
+  70%  { box-shadow: 0 8px 24px rgba(18,140,74,.4), 0 0 0 16px rgba(37,211,102,0); }
+  100% { box-shadow: 0 8px 24px rgba(18,140,74,.4), 0 0 0 0 rgba(37,211,102,0); }
+}
+
+.pie {
+  margin-top: 34px;
+  font-size: .8rem;
+  opacity: .7;
+}
+
+
+[hidden] { display: none !important; }
+
+/* =====================================================
+   CATÁLOGOS
+   ===================================================== */
+.catalogo { max-width: 760px; align-items: stretch; }
+.volver {
+  align-self: flex-start;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  color: var(--tinta);
+  font-weight: 700;
+  font-size: .9rem;
+  text-decoration: none;
+  box-shadow: 0 3px 12px rgba(74,42,53,.15);
+}
+.catalogo h2 { margin-top: 20px; font-family: 'Cormorant Garamond', serif; font-size: 2.1rem; line-height: 1.1; }
+.cat-sub { margin-top: 6px; opacity: .85; }
+.productos {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 14px;
+  text-align: left;
+}
+.prod {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255,255,255,.93);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(74,42,53,.14);
+}
+.prod .foto {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  color: var(--acento);
+  background: linear-gradient(135deg, #fbd3dc, #fde3b8);  /* se ve si aún no hay foto */
+}
+.prod .foto svg { width: 34px; opacity: .55; }
+.prod .foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.prod .info { display: flex; flex-direction: column; gap: 4px; flex: 1; padding: 10px 12px 12px; }
+.prod h3 { font-size: .98rem; line-height: 1.2; }
+.prod p { font-size: .82rem; line-height: 1.35; opacity: .8; }
+.precio { margin-top: auto; padding-top: 4px; font-weight: 700; font-size: 1.05rem; color: var(--acento); }
+.pedir {
+  margin-top: 8px;
+  padding: 9px;
+  border-radius: 999px;
+  text-align: center;
+  font-weight: 700;
+  font-size: .85rem;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, var(--whatsapp-1), var(--whatsapp-2));
+}
+
+a:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .btn-whatsapp { animation: none; }
+  .btn, .red { transition: none; }
+}
