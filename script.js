@@ -25,7 +25,7 @@ const CATALOGOS = {
       { nombre: "Cofre de Minecraft", precio: "$220.000", desc: "Peluche, dulces y una carta.", foto: "img/regalo3.jpeg" },
       { nombre: "Caja dulce de recuerdos", precio: "$180.000", desc: "Fotos, dedicatoria y dulces.", foto: "img/regalo4.jpeg" },
       { nombre: "Caja HotWheels", precio: "$160.000", desc: "Un carrito, 2 flores, dedicatoria y dulces.", foto: "img/regalo5.jpeg" },
-      { nombre: "Caja de sneaks", precio: "$170.000", desc: "6 dulces a eleccion.", foto: "img/regalo6.jpeg" },
+      { nombre: "Caja de sneaks", precio: "$170.000", desc: "4 fotos y 6 dulces a eleccion.", foto: "img/regalo6.jpeg" },
       { nombre: "Caja de cumpleaños boy", precio: "$150.000", desc: "Fotos, dedicatoria y dulces.", foto: "img/regalo7.jpeg" },
       { nombre: "Caja de cumpleaños girl", precio: "$160.000", desc: "Fotos, dedicatoria y dulces.", foto: "img/regalo8.jpeg" }
     ]
