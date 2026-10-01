@@ -1,13 +1,5 @@
-/* =====================================================
-   EDITA AQUÍ TUS PRODUCTOS
-   - nombre, precio, desc (descripción breve)
-   - foto: ya viene asignada. Solo pon en la carpeta img/
-     las fotos con ese nombre:
-       Flores:  ramo1.png ... ramo8.png
-       Regalos: regalo1.png ... regalo8.png
-       Postres: postre1.png ... postre8.png
-   ===================================================== */
-const WHATSAPP = "521234567890";   // tu número con código de país, sin + ni espacios
+
+const WHATSAPP = "5950983835886";   // tu número con código de país, sin + ni espacios
 
 const CATALOGOS = {
   flores: {
