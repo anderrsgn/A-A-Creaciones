@@ -7,13 +7,13 @@ const CATALOGOS = {
     sub: "Ramos y arreglos hechos al momento.",
     productos: [
       { nombre: "Ramo de Hello Kitty", precio: "$90.000", desc: "Ramo con tematica y 7 flores.", foto: "img/ramo1.jpeg" },
-      { nombre: "Ramo verdoso", precio: "$90.000", desc: "Flores, una mariposa y corona", foto: "img/ramo2.jpeg" },
-      { nombre: "Ramo celestes", precio: "$90.000", desc: "Flores y una mariposa", foto: "img/ramo3.jpeg" },
+      { nombre: "Ramo verdoso", precio: "$90.000", desc: "Flores, mariposas y una corona.", foto: "img/ramo2.jpeg" },
+      { nombre: "Ramo celestes", precio: "$90.000", desc: "Flores celestes y una mariposa.", foto: "img/ramo3.jpeg" },
       { nombre: "Ramo morado", precio: "$90.000", desc: "Flores moradas y una mariposa.", foto: "img/ramo4.jpeg" },
       { nombre: "Ramo amarillo", precio: "$90.000", desc: "7 flores amarillas y una mariposa.", foto: "img/ramo5.jpeg" },
       { nombre: "Ramo rosita", precio: "$90.000", desc: "Colores llamativos con una mariposa", foto: "img/ramo6.jpeg" },
       { nombre: "Ramo elegante", precio: "$90.000", desc: "7 flores rojas y una mariposa.", foto: "img/ramo7.jpeg" },
-      { nombre: "Ramo azulado", precio: "$90.000", desc: "Flores, una mariposa y dedicatoria", foto: "img/ramo8.jpeg" }
+      { nombre: "Ramo azulado", precio: "$90.000", desc: "Flores, una mariposa y dedicatoria.", foto: "img/ramo8.jpeg" }
     ]
   },
   regalos: {
