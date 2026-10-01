@@ -34,14 +34,14 @@ const CATALOGOS = {
     titulo: "Postres",
     sub: "Hechos con ingredientes frescos cada día.",
     productos: [
-      { nombre: "Pastel de chocolate", precio: "$520.000", desc: "Mediano, 10 porciones, con ganache.", foto: "img/postre1.jpeg" },
-      { nombre: "Cheesecake de frutos rojos", precio: "$450.000", desc: "Cremoso, con salsa de fresa y zarzamora.", foto: "img/postre2.jpeg" },
-      { nombre: "Cupcakes (6 pzas)", precio: "$210.000", desc: "Sabores surtidos con betún decorado.", foto: "img/postre3.jpeg" },
-      { nombre: "Galletas decoradas", precio: "$180.000", desc: "6 piezas con diseños para tu evento.", foto: "img/postre4.jpeg" },
-      { nombre: "Brownies (9 pzas)", precio: "$230.000", desc: "Húmedos, con nuez y chocolate.", foto: "img/postre5.jpeg" },
-      { nombre: "Pastel tres leches", precio: "$480.000", desc: "Suave y ligero, con crema batida.", foto: "img/postre6.jpeg" },
-      { nombre: "Fresas con chocolate", precio: "$260.000", desc: "12 fresas bañadas en chocolate.", foto: "img/postre7.jpeg" },
-      { nombre: "Pay de limón", precio: "$320.000", desc: "Con base de galleta y merengue.", foto: "img/postre8.jpeg" }
+      { nombre: "Torta tu hermana 1", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre1.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "OHh Ferran OHh Ferran", foto: "img/postre2.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre3.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Te amo Ale", foto: "img/postre4.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre5.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Ganando bro", foto: "img/postre6.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre7.jpeg" },
+      { nombre: "Torta tu hermana 2", precio: "$69.000", desc: "Mbappe x Pablito Pintos", foto: "img/postre8.jpeg" }
     ]
   }
 };
