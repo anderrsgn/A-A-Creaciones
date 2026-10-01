@@ -7,13 +7,13 @@ const CATALOGOS = {
     sub: "Ramos y arreglos hechos al momento.",
     productos: [
       { nombre: "Ramo de rosas rojas", precio: "$450.000", desc: "12 rosas con follaje y envoltura elegante.", foto: "img/ramo1.jpg" },
-      { nombre: "Ramo de girasoles", precio: "$380.000", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.png" },
-      { nombre: "Tulipanes de colores", precio: "$420.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.png" },
-      { nombre: "Caja de flores mixtas", precio: "$550.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.png" },
-      { nombre: "Ramo de gerberas", precio: "$340.000", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.png" },
-      { nombre: "Lirios blancos", precio: "$400.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.png" },
-      { nombre: "Rosas blancas y eucalipto", precio: "$620.000", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.png" },
-      { nombre: "Rosa eterna en cúpula", precio: "$520.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.png" }
+      { nombre: "Ramo de girasoles", precio: "$380.000", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.jpg" },
+      { nombre: "Tulipanes de colores", precio: "$420.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.jpg" },
+      { nombre: "Caja de flores mixtas", precio: "$550.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.jpg" },
+      { nombre: "Ramo de gerberas", precio: "$340.000", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.jpg" },
+      { nombre: "Lirios blancos", precio: "$400.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.jpg" },
+      { nombre: "Rosas blancas y eucalipto", precio: "$620.000", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.jpg" },
+      { nombre: "Rosa eterna en cúpula", precio: "$520.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.jpg" }
     ]
   },
   regalos: {
