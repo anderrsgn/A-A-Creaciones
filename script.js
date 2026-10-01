@@ -18,11 +18,14 @@ const CATALOGOS = {
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo10.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo11.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo12.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo13.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo14.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo15.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo16.jpeg" },
       { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo17.jpeg" },
-      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo18.jpeg" }
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo18.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo19.jpeg" },
+      { nombre: "Proximamente", precio: "$80.000", desc: "Sin descripcion.", foto: "img/ramo20.jpeg" }
     ]
   },
   regalos: {
