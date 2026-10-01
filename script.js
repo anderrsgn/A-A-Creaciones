@@ -6,14 +6,14 @@ const CATALOGOS = {
     titulo: "Catálogo de flores",
     sub: "Ramos y arreglos hechos al momento.",
     productos: [
-      { nombre: "Ramo de rosas rojas", precio: "$450.000", desc: "12 rosas con follaje y envoltura elegante.", foto: "img/ramo1.jpeg" },
-      { nombre: "Ramo de girasoles", precio: "$380.000", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.jpeg" },
-      { nombre: "Tulipanes de colores", precio: "$420.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.jpeg" },
-      { nombre: "Caja de flores mixtas", precio: "$550.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.jpeg" },
-      { nombre: "Ramo de gerberas", precio: "$340.000", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.jpeg" },
-      { nombre: "Lirios blancos", precio: "$400.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.jpeg" },
-      { nombre: "Rosas blancas y eucalipto", precio: "$620.000", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.jpeg" },
-      { nombre: "Rosa eterna en cúpula", precio: "$520.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.jpeg" }
+      { nombre: "Ramo de rosita", precio: "$90.000", desc: "12 rosas con follaje y envoltura elegante.", foto: "img/ramo1.jpeg" },
+      { nombre: "Ramo de girasoles", precio: "$90.000", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.jpeg" },
+      { nombre: "Tulipanes de colores", precio: "$90.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.jpeg" },
+      { nombre: "Caja de flores mixtas", precio: "$90.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.jpeg" },
+      { nombre: "Ramo de gerberas", precio: "$90.000", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.jpeg" },
+      { nombre: "Lirios blancos", precio: "$90.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.jpeg" },
+      { nombre: "Rosas blancas y eucalipto", precio: "$90.000", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.jpeg" },
+      { nombre: "Rosa eterna en cúpula", precio: "$90.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.jpeg" }
     ]
   },
   regalos: {
