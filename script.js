@@ -48,12 +48,12 @@ const CATALOGOS = {
     productos: [
       { nombre: "Torta tu hermana 1", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre1.jpeg" },
       { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "OHh Ferran OHh Ferran", foto: "img/postre2.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre3.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Te amo Ale", foto: "img/postre4.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre5.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Ganando bro", foto: "img/postre6.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre7.jpeg" },
-      { nombre: "Torta tu hermana 2", precio: "$69.000", desc: "Mbappe x Pablito Pintos", foto: "img/postre8.jpeg" }
+      { nombre: "Torta tu hermana 3", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre3.jpeg" },
+      { nombre: "Torta tu hermana 4", precio: "$67.000", desc: "Te amo Ale", foto: "img/postre4.jpeg" },
+      { nombre: "Torta tu hermana 5", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre5.jpeg" },
+      { nombre: "Torta tu hermana 6", precio: "$67.000", desc: "Ganando bro", foto: "img/postre6.jpeg" },
+      { nombre: "Torta tu hermana 7", precio: "$67.000", desc: "Che kaiguema", foto: "img/postre7.jpeg" },
+      { nombre: "Torta tu hermana 8", precio: "$69.000", desc: "Mbappe x Pablito Pintos", foto: "img/postre8.jpeg" }
     ]
   }
 };
