@@ -7,41 +7,41 @@ const CATALOGOS = {
     sub: "Ramos y arreglos hechos al momento.",
     productos: [
       { nombre: "Ramo de rosas rojas", precio: "$450.000", desc: "12 rosas con follaje y envoltura elegante.", foto: "img/icono.png" },
-      { nombre: "Ramo de girasoles", precio: "$380", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.png" },
-      { nombre: "Tulipanes de colores", precio: "$420", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.png" },
-      { nombre: "Caja de flores mixtas", precio: "$550", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.png" },
-      { nombre: "Ramo de gerberas", precio: "$340", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.png" },
-      { nombre: "Lirios blancos", precio: "$400", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.png" },
-      { nombre: "Rosas blancas y eucalipto", precio: "$620", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.png" },
-      { nombre: "Rosa eterna en cúpula", precio: "$520", desc: "Rosa preservada que dura años.", foto: "img/ramo8.png" }
+      { nombre: "Ramo de girasoles", precio: "$380.000", desc: "6 girasoles frescos para alegrar el día.", foto: "img/ramo2.png" },
+      { nombre: "Tulipanes de colores", precio: "$420.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.png" },
+      { nombre: "Caja de flores mixtas", precio: "$550.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.png" },
+      { nombre: "Ramo de gerberas", precio: "$340.000", desc: "Gerberas coloridas con papel kraft.", foto: "img/ramo5.png" },
+      { nombre: "Lirios blancos", precio: "$400.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.png" },
+      { nombre: "Rosas blancas y eucalipto", precio: "$620.000", desc: "Ramo grande, ideal para bodas y aniversarios.", foto: "img/ramo7.png" },
+      { nombre: "Rosa eterna en cúpula", precio: "$520.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.png" }
     ]
   },
   regalos: {
     titulo: "Regalos & detalles",
     sub: "Sorpresas para cualquier ocasión.",
     productos: [
-      { nombre: "Caja sorpresa", precio: "$480", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.png" },
-      { nombre: "Peluche con globo", precio: "$350", desc: "Osito suave con globo metálico.", foto: "img/regalo2.png" },
-      { nombre: "Desayuno sorpresa", precio: "$520", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.png" },
-      { nombre: "Vela aromática", precio: "$180", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.png" },
-      { nombre: "Taza personalizada", precio: "$150", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.png" },
-      { nombre: "Caja de chocolates", precio: "$260", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.png" },
-      { nombre: "Globo burbuja", precio: "$390", desc: "Globo transparente con mensaje y confeti.", foto: "img/regalo7.png" },
-      { nombre: "Set de spa", precio: "$430", desc: "Sales, jabón y crema en caja de regalo.", foto: "img/regalo8.png" }
+      { nombre: "Caja sorpresa", precio: "$480.000", desc: "Chocolates, tarjeta y detalle especial.", foto: "img/regalo1.png" },
+      { nombre: "Peluche con globo", precio: "$350.000", desc: "Osito suave con globo metálico.", foto: "img/regalo2.png" },
+      { nombre: "Desayuno sorpresa", precio: "$520.000", desc: "Fruta, pan, jugo y mensaje personalizado.", foto: "img/regalo3.png" },
+      { nombre: "Vela aromática", precio: "$180.000", desc: "Vela artesanal de vainilla y lavanda.", foto: "img/regalo4.png" },
+      { nombre: "Taza personalizada", precio: "$150.000", desc: "Con nombre o frase a tu elección.", foto: "img/regalo5.png" },
+      { nombre: "Caja de chocolates", precio: "$260.000", desc: "Surtido de 16 chocolates finos.", foto: "img/regalo6.png" },
+      { nombre: "Globo burbuja", precio: "$390.000", desc: "Globo transparente con mensaje y confeti.", foto: "img/regalo7.png" },
+      { nombre: "Set de spa", precio: "$430.000", desc: "Sales, jabón y crema en caja de regalo.", foto: "img/regalo8.png" }
     ]
   },
   postres: {
     titulo: "Postres",
     sub: "Hechos con ingredientes frescos cada día.",
     productos: [
-      { nombre: "Pastel de chocolate", precio: "$520", desc: "Mediano, 10 porciones, con ganache.", foto: "img/postre1.png" },
-      { nombre: "Cheesecake de frutos rojos", precio: "$450", desc: "Cremoso, con salsa de fresa y zarzamora.", foto: "img/postre2.png" },
-      { nombre: "Cupcakes (6 pzas)", precio: "$210", desc: "Sabores surtidos con betún decorado.", foto: "img/postre3.png" },
-      { nombre: "Galletas decoradas", precio: "$180", desc: "6 piezas con diseños para tu evento.", foto: "img/postre4.png" },
-      { nombre: "Brownies (9 pzas)", precio: "$230", desc: "Húmedos, con nuez y chocolate.", foto: "img/postre5.png" },
-      { nombre: "Pastel tres leches", precio: "$480", desc: "Suave y ligero, con crema batida.", foto: "img/postre6.png" },
-      { nombre: "Fresas con chocolate", precio: "$260", desc: "12 fresas bañadas en chocolate.", foto: "img/postre7.png" },
-      { nombre: "Pay de limón", precio: "$320", desc: "Con base de galleta y merengue.", foto: "img/postre8.png" }
+      { nombre: "Pastel de chocolate", precio: "$520.000", desc: "Mediano, 10 porciones, con ganache.", foto: "img/postre1.png" },
+      { nombre: "Cheesecake de frutos rojos", precio: "$450.000", desc: "Cremoso, con salsa de fresa y zarzamora.", foto: "img/postre2.png" },
+      { nombre: "Cupcakes (6 pzas)", precio: "$210.000", desc: "Sabores surtidos con betún decorado.", foto: "img/postre3.png" },
+      { nombre: "Galletas decoradas", precio: "$180.000", desc: "6 piezas con diseños para tu evento.", foto: "img/postre4.png" },
+      { nombre: "Brownies (9 pzas)", precio: "$230.000", desc: "Húmedos, con nuez y chocolate.", foto: "img/postre5.png" },
+      { nombre: "Pastel tres leches", precio: "$480.000", desc: "Suave y ligero, con crema batida.", foto: "img/postre6.png" },
+      { nombre: "Fresas con chocolate", precio: "$260.000", desc: "12 fresas bañadas en chocolate.", foto: "img/postre7.png" },
+      { nombre: "Pay de limón", precio: "$320.000", desc: "Con base de galleta y merengue.", foto: "img/postre8.png" }
     ]
   }
 };
