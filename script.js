@@ -11,9 +11,9 @@ const CATALOGOS = {
       { nombre: "Ramo celestes", precio: "$90.000", desc: "10 tulipanes en tonos mixtos.", foto: "img/ramo3.jpeg" },
       { nombre: "Ramo morado", precio: "$90.000", desc: "Arreglo en caja redonda con flores de temporada.", foto: "img/ramo4.jpeg" },
       { nombre: "Ramo amarillo", precio: "$90.000", desc: "7 flores amarillas y una mariposa.", foto: "img/ramo5.jpeg" },
-      { nombre: "Ramo rosita", precio: "$90.000", desc: "Ramo de lirios con delicado aroma.", foto: "img/ramo6.jpeg" },
+      { nombre: "Ramo rosita", precio: "$90.000", desc: "Colores llamativos", foto: "img/ramo6.jpeg" },
       { nombre: "Ramo elegante", precio: "$90.000", desc: "7 flores rojas y una mariposa.", foto: "img/ramo7.jpeg" },
-      { nombre: "Ramo azulado", precio: "$90.000", desc: "Rosa preservada que dura años.", foto: "img/ramo8.jpeg" }
+      { nombre: "Ramo azulado", precio: "$90.000", desc: "Flores, mariposa y dedicatoria", foto: "img/ramo8.jpeg" }
     ]
   },
   regalos: {
